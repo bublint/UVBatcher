@@ -1,7 +1,7 @@
 # UVBatcher
-UVBatcher is a user-friendly Python script that uses 'bpy' to automatically run the Smart UV Project operation on all fbx files in a designated folder. The script has a simple tkinker GUI that can remember your previous directory selections for input and output.
+UVBatcher is a user-friendly Python script that uses bpy to automatically run the Smart UV Project operation on all fbx files in a designated folder. The script has a simple tkinker GUI that can remember your previous directory selections for input and output.
 ## Installation
-To run the script, you will need 'bpy' running outside of Blender. Setting this up properly can be a bit troublesome, but I've found success using Python version 3.7.6 and pip version 20.2.4. 
+To run the script, you will need bpy running outside of Blender. Setting this up properly can be a bit troublesome, but I've found success using Python version 3.7.6 and pip version 20.2.4. 
 ## Usage
 To use UVBatcher, follow these steps:
 1. Install Python version 3.7.6 and pip version 20.2.4.
@@ -17,4 +17,4 @@ Note that there are limitations to what Blender's smart project feature can do i
 ## License 
 This project is licensed under the MIT License.
 ## About
-I developed UVBatcher to speed up my XR development workflow when dealing with geometry originating from CAD software like Solidworks and NX. I use a batch export script in 3DS Max to seperate large parasolids into a bunch of individual fbx files so that the Smart UV Project operation has the best shot at generating clean UVs. Ultimately I still sometimes need to manually fix topology and UV maps for certain meshes, but this gives me a fast way to reach a good starting place for unwieldy files.
+I developed UVBatcher to speed up my XR development workflow when dealing with geometry originating from CAD software like Solidworks and NX. I use a batch export script in 3DS Max to separate large parasolids into a bunch of individual fbx files so that the Smart UV Project operation has the best shot at generating clean UVs. Ultimately I still sometimes need to manually fix topology and UV maps for certain meshes, but this gives me a fast way to reach a good starting place for unwieldy files.
